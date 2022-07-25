@@ -1,8 +1,9 @@
 # Frontend Mentor - Bookmark landing page
 
 - The challenge
-- Where to find everything
 - Built with
+- What I learned
+- Useful resources
 
 ## The challenge
 
@@ -22,10 +23,14 @@ Users should be able to:
 - Bootatrap 4
 - JavaScript
 
-#### What I learned
+## What I learned
 
 With this challenge, my knowledge of tabs and accordion were improved as well as some design concepts such as CSS shapes and CSS box-shadow.
 
-##### Useful resources
+## Useful resources
 
 Chrome dev tools were fundamental to fix many issues I have to structure the page as expected, that means to get it looking as close to the design provided as possible.
+
+## Acknowledgement
+
+Welcome any feedback and thanks.
