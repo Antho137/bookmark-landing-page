@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <title>Frontend Mentor | Bookmark landing page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-sm-center" id="head">	
+        <header class="col-sm-10 offset-sm-1 col-md-12 col-xl-10 offset-xl-1" id="head1">
+          <nav class="navbar navbar-expand-md navbar-light" id="nav">    
+            <p id="head2">
+              <img src="./images/logo-bookmark.svg" class="logo" alt="logo" />
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <img src="./images/icon-hamburger.svg" class="img-responsive" alt="hamburger">
+              </button>
+            </p>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <button class="login">Login</button>
+            </div>
+          </nav>
+        </header>
+      </div>
+			<div class="row justify-content-sm-center" id="first">
+        <div class="col-sm-12 col-xl-10 offset-xl-1" id="one">
+          <div class="col-md-6" id="pageIllustration">            
+            <img src="./images/illustration-hero.svg" class="img-responsive" alt="illustration-hero">
+          </div>
+          <div class="col-md-6" id="intro">
+            <h1>A Simple Bookmark Manager</h1>
+            <p class="intro">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <p>
+              <button class="chrome">Get it on Chrome</button>
+              <button class="firefox">Get it on Firefox</button>
+            </p>          
+          </div>
+        </div>
+      </div>  
+      <div class="row justify-content-sm-center" id="second">          
+        <div class="col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-xl-6 offset-xl-3" id="features">
+          <h2>Features</h2>
+          <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>         
+        <div class="col-sm-12 col-xl-10 offset-xl-1" id="featuresTabs">
+          <div class="col-xl-8 offset-xl-2" id="tabsTitle">
+            <!-- Tabs -->
+            <ul id="nav-tab" class="nav">
+              <li class="tab-nav active" data-id="tab-1">Simple Bookmarking</li>
+              <li class="tab-nav" data-id="tab-2">Speedy Searching</li>
+              <li class="tab-nav" data-id="tab-3">Easy Sharing</li>
+            </ul>
+          </div>
+          <!-- Tab panes -->
+          <div class="tabContent">  
+            <div class="content active" id="tab-1">
+              <div class="col-md-6">
+                <img src="./images/illustration-features-tab-1.svg"  alt="illustration-tab1">
+              </div>
+              <div class="col-md-6" id="tabDescript1">
+                <h3>Bookmark in one click</h3>
+                <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                <button class="infoBtn">More Info</button>
+              </div>
+            </div>
+            <div class="content" id="tab-2">
+              <div class="col-md-6">
+                <img src="./images/illustration-features-tab-2.svg"  alt="illustration-tab2">
+              </div>
+              <div class="col-md-6" id="tabDescript2">
+                <h3>Intelligent search</h3>
+                <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                <button class="infoBtn">More Info</button>
+              </div>
+            </div>
+            <div class="content" id="tab-3">
+              <div class="col-md-6">
+                <img src="./images/illustration-features-tab-3.svg" class="col-md-6" alt="illustration-tab3">
+              </div>
+              <div class="col-md-6" id="tabDescript3">
+                <h3>Share your bookmarks</h3>
+                <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                <button class="infoBtn">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>  
+      <div class="row justify-content-sm-center" id="third">
+        <div class="col-sm-12 col-xl-10 offset-xl-1" id="download">
+          <div class="col-xl-6 offset-xl-3" id="extDownload">
+            <h3>Download the extension</h3>
+            <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+          </div>        
+          <div class="col-xl-8 offset-xl-2" id="browserExtension">
+            <div class="col-sm-4" id="chromeExt">
+              <img src="./images/logo-chrome.svg" alt="Chrome" />
+              <h4>Add to Chrome</h4>
+              <p>Minimum version 62</p>
+              <button class="browserBtn">Add & Install Extension</button>
+            </div>
+            <div class="col-sm-4" id="firefoxExt">
+              <img src="./images/logo-firefox.svg" alt="Firefox" />
+              <h4>Add to Firefox</h4>
+              <p>Minimum version 55</p>
+              <button class="browserBtn">Add & Install Extension</button>
+            </div>
+            <div class="col-sm-4" id="operaExt">
+              <img src="./images/logo-opera.svg" alt="Opera" />
+              <h4>Add to Opera</h4>
+              <p>Minimum version 46</p>
+              <button class="browserBtn">Add & Install Extension</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="row justify-content-sm-center" id="fourth">          
+        <div class="col-sm-10 offset-sm-1 col-xl-10 offset-xl-1" id="questions">
+          <div class="col-xl-8 offset-xl-2" id="faqs">
+            <div class="faqs">
+              <h3>Frequently Asked Questions</h3>
+              <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+            </div>
+            <div class="faq1">
+              <!-- Question 1 -->
+              <p class="accordion">What is Bookmark?</p>
+              <!-- Answer 1 -->
+              <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+              </div>
+            </div>
+            <div class="faq2">
+              <!-- Question 2 -->
+              <p class="accordion">How can I request a new browser?</p>
+              <!-- Answer 2 -->
+              <div class="panel">
+                <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p></div>
+            </div>
+            <div class="faq3">
+              <!-- Question 3 -->
+              <p class="accordion">Is there a mobile app?</p>
+              <!-- Answer 3 -->
+              <div class="panel">
+                <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed  sollicitudin ex et ultricies bibendum.</p>
+              </div>
+            </div>
+            <div class="faq4">
+              <!-- Question 4 -->
+              <p class="accordion">What about other Chromium browsers?</p>
+              <!-- Answer 4 -->
+              <div class="panel">
+                <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+              </div>
+            </div>  
+          </div> 
+          <button class="infoBtn">More Info</button>
+        </div>
+      </div>  
+      <div class="row justify-content-sm-center" id="fiveth">          
+        <div class="col-sm-12 col-xl-10 offset-xl-1" id="footer">
+          <div class="join">
+            <p>35,000+ already joined</p>
+            <p class="stay">Stay up-to-date with what<br /> we’re doing</p>
+            
+            <form action="#" method="post" autocomplete="false">
+              <p>
+                <input type="email" id="email" placeholder ="Your email address"  required /><span id="emailError"></span>
+                <input type="submit" id="submit" value="Sign up" />
+              </p>
+            </form>
+          </div>
+          <div class="about">
+            <img src="./images/logo-bookmark.svg" class="logo" alt="logo" />
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <p>
+              <img src="./images/icon-facebook.svg" class="img-responsive" alt="facebook">
+              <img src="./images/icon-twitter.svg" class="img-responsive" alt="twitter">
+            </p>
+          </div>
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Antonio Sala</a>.
+          </p>
+        </div>
+      </div> 
+    </div> 
+    <script src="index.js"></script>  
+  </body>
+</html>
